@@ -19,7 +19,7 @@ import com.baidu.mapapi.SDKInitializer;
  */
 public class MyApp extends Application {
 	private  static final String TAG = MyApp.class.getName();
-
+	//测试中文乱码，测了半天了！
 	@Override
 	public void onCreate() {
 		super.onCreate();
