@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+	<color name="colorWindowBackground">@android:color/white</color>
+	<color name="colorNavigationBar">#1565C0</color>
+	<color name="colorTextPrimary">#FFFFFF</color>
+	<color name="colorText">#000000</color>
+	<color name="colorControlNormal">#FF0000</color>
+	<color name="colorAccent">#990000</color>
+	<color name="colorButtonNormal">#1E88E5</color>
+	<color name="colorControlHighlight">#009900</color>
+	<color name="colorShortCutItemBackground">#00ffffff</color>
+	<color name="colorShortCutItemPressed">#33aaaaaa</color>
+</resources>

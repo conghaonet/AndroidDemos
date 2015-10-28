@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidDemos.iml" filepath="$PROJECT_DIR$/AndroidDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baidulbs/baidulbs.iml" filepath="$PROJECT_DIR$/baidulbs/baidulbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymediacodec/mymediacodec.iml" filepath="$PROJECT_DIR$/mymediacodec/mymediacodec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymp4parser/mymp4parser.iml" filepath="$PROJECT_DIR$/mymp4parser/mymp4parser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rangeseekbar/rangeseekbar.iml" filepath="$PROJECT_DIR$/rangeseekbar/rangeseekbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingtab/slidingtab.iml" filepath="$PROJECT_DIR$/slidingtab/slidingtab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipyrefreshlayout/swipyrefreshlayout.iml" filepath="$PROJECT_DIR$/swipyrefreshlayout/swipyrefreshlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+    </modules>
+  </component>
+</project>

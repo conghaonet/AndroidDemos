@@ -1,0 +1,1 @@
+include ':app', ':baidulbs', ':volley', ':swipyrefreshlayout', ':slidingtab', ':mymediacodec', ':mymp4parser', ':rangeseekbar'

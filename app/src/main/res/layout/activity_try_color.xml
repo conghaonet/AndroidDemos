@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical"
+			  tools:context=".TryColorActivity">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/hello_world"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Button"
+		/>
+
+	<RadioGroup
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+
+		<RadioButton
+			android:id="@+id/radioButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="RadioButton"
+			/>
+
+		<RadioButton
+			android:id="@+id/radioButton2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:text="RadioButton 2"
+			/>
+	</RadioGroup>
+
+	<CheckBox
+		android:id="@+id/checkBox"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New CheckBox"/>
+
+	<Switch
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Switch"
+		/>
+
+	<AutoCompleteTextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="餐厅"/>
+</LinearLayout>

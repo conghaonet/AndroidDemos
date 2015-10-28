@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="@style/AppBaseTheme"/>
+
+	<style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+		<!-- toolbar（actionbar）颜色 -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+
+		<!-- 状态栏颜色 -->
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+		<!-- 窗口的背景颜色 -->
+		<!--<item name="android:windowBackground">@color/colorWindowBackground</item>-->
+
+		<!-- toolbar（actionbar）上文字的颜色 -->
+		<!--<item name="android:textColorPrimary">@color/colorTextPrimary</item>-->
+
+		<!-- 主界面（窗口）中组件的文字颜色，如TextView,Button,AutoCompleteTextView等的文字颜色-->
+		<!--<item name="android:textColor">@color/colorText</item>-->
+		<!--<item name="android:editTextColor">@color/colorText</item>-->
+
+		<!--各控制元件的预设颜色。(如：check box、switch 或是 radio) 未被勾选 (unchecked) 或是未选定 (unselected) 的颜色。-->
+		<item name="colorControlNormal">@color/colorControlNormal</item>
+		<!--各控制元件(如：check box、switch 或是 radio) 被勾选 (checked) 或是选定 (selected) 的颜色。-->
+		<item name="colorAccent">@color/colorAccent</item>
+		<!--各控制元件旁的辅助文字的颜色。(如：check box、switch 或是 radio) 。-->
+		<!--<item name="android:textColorPrimaryDisableOnly">@color/colorText</item>-->
+
+		<!--Button的正常状态的颜色-->
+		<item name="colorButtonNormal">@color/colorButtonNormal</item>
+
+		<!--Button 被按下时的颜色-->
+		<item name="colorControlHighlight">@color/colorControlHighlight</item>
+
+		<!--设置toolbar(ActionBar)上搜索空间的样式-->
+		<!--<item name="searchViewStyle">@style/MySearchViewStyle</item>-->
+
+		<!--设置溢出菜单(Overflow)的样式-->
+		<!--<item name="actionOverflowMenuStyle">@style/MyOverflowMenuStyle</item>-->
+
+		<!--设置toolbar(actionbar)上导航按钮-->
+		<!--<item name="navigationIcon">@mipmap/ic_pref_star</item>-->
+	</style>
+
+	<style name="AppThemeOverflow" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+		<item name="android:textColorPrimary">@color/colorTextPrimary</item>
+	</style>
+
+	<style name="AppThemeOverflowPopup" parent="ThemeOverlay.AppCompat.Dark">
+		<item name="android:itemBackground">@color/colorPrimary</item>
+		<item name="android:textColor">@color/colorTextPrimary</item>
+	</style>
+</resources>

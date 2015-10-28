@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JsonActivity"
+    android:padding="@dimen/activity_horizontal_margin"
+    >
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/json_txt_str"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#66CCFF"
+    />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/json_txt_city"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/json_txt_cityid"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+</LinearLayout>

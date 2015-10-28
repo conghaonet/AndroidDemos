@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyDemos</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="left_menu_home">主页</string>
+    <string name="left_menu_backlog">待办事宜</string>
+    <string name="left_menu_favorites">我的收藏</string>
+    <string name="left_menu_settings">设置</string>
+    <string name="open_drawer_content_desc">滑动以打开侧滑菜单</string>
+    <string name="close_drawer_content_desc">滑动以关闭侧滑菜单</string>
+    <string name="no_more_data">没有更多数据</string>
+	<string name="title_activity_daemon_service">DaemonServiceActivity</string>
+</resources>

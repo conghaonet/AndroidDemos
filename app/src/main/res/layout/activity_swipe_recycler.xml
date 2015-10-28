@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".swipe.SwipeRecyclerActivity"
+    >
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/list_layout_rb"
+        android:weightSum="2"
+        >
+        <RadioButton android:id="@+id/list_layout_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Linear Layout"/>
+        <RadioButton android:id="@+id/grid_layout_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Grid Layout"/>
+    </RadioGroup>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/recycler_view_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000FF"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+﻿<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".drawer.DrawerLayoutActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<FrameLayout-->
+            <!--android:id="@+id/content_frame"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" >-->
+        <!--</FrameLayout>-->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/drawer_content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.example.android.common.view.SlidingTabLayout
+                android:id="@+id/drawer_sliding_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CCCCCC"/>
+            <android.support.v4.view.ViewPager
+                android:id="@+id/drawer_sliding_tab_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/drawer_left_menu"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@android:color/holo_blue_bright">
+            <ListView
+                android:id="@+id/drawer_left_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/drawer_right_menu"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@android:color/holo_blue_light">
+            <ListView
+                android:id="@+id/drawer_right_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+        </RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

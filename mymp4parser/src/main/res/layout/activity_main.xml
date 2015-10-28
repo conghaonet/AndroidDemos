@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:tools="http://schemas.android.com/tools"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+			  android:orientation="vertical"
+				tools:context="com.app2m.demo.mymp4parser.MainActivity">
+
+<!--
+	<TextView
+		android:text="@string/hello_world"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+-->
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="MV制作Demo"
+		android:onClick="openScanVideoActivity"/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="扫描文件"
+		android:onClick="scanFiles"/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="合成音频"
+		android:onClick="plusAudio"/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="MediaMuxer"
+		android:onClick="tryMediaMuxer"/>
+<ListView
+	android:id="@+id/list"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+</ListView>
+</LinearLayout>

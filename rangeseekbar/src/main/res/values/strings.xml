@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RangeSeekBar</string>
+    <string name="demo_min_label">最小</string>
+    <string name="demo_max_label">最大</string>
+</resources>

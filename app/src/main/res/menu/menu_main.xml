@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto"
+	  xmlns:tools="http://schemas.android.com/tools"
+	  tools:context=".MainActivity"
+	>
+<!--
+	<item
+		android:id="@+id/ab_search"
+		android:orderInCategory="80"
+		app:showAsAction="ifRoom"
+		app:actionViewClass="android.support.v7.widget.SearchView"
+		android:title="action_search"
+		/>
+-->
+	<item
+		android:id="@+id/action_a"
+		android:orderInCategory="90"
+		app:showAsAction="ifRoom"
+		android:icon="@mipmap/ic_pref_sound"
+		android:title="action_a"
+		/>
+	<item
+		android:id="@+id/action_b"
+		android:orderInCategory="93"
+		app:showAsAction="ifRoom"
+		android:icon="@mipmap/ic_pref_music"
+		android:title="action_b"
+		/>
+	<item
+		android:id="@+id/action_c"
+		android:orderInCategory="95"
+		app:showAsAction="never"
+		android:icon="@mipmap/ic_pref_clear_cache"
+		android:title="action_c"
+		/>
+	<item
+		android:id="@+id/action_settings"
+		android:orderInCategory="100"
+		app:showAsAction="never"
+		android:icon="@mipmap/ic_palette_colorful_48dp"
+		android:title="@string/action_settings"
+		 />
+</menu>

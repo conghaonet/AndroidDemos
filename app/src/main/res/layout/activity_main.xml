@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical"
+			  tools:context=".MainActivity"
+	>
+	<include layout="@layout/toolbar"/>
+	<Button
+		android:text="Clear Cache"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="clearCache"
+		android:layout_gravity="center_horizontal"
+		/>
+	<Button
+		android:text="Try Color"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="openTryColor"
+		/>
+	<Button
+		android:text="Baidu Poi Search"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="openBaiduPoiSearch"
+		/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Try Json"
+		android:onClick="openTryJson"
+		/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Swipe Refresh Layout + Recycler View"
+		android:onClick="openSwipeRecycler"
+		/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Swipy + List View"
+		android:onClick="openSwipy"
+		/>
+	<android.support.v7.widget.AppCompatButton
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Drawer Layout"
+		android:onClick="openDrawerLayout"
+		/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Daemon Service"
+		android:onClick="openDaemonService"
+		/>
+</LinearLayout>

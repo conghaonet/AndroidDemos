@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app2m.demo" >
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="FbZigEh6MH2VVPi1pkWbiU4N" />
+
+        <service
+            android:name=".service.MyIntentService"
+            android:exported="false" >
+        </service>
+        <service
+            android:name=".service.MyDaemonService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TryColorActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".BaiduPoiSearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorPortrait" >
+        </activity>
+        <activity
+            android:name=".JsonActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".swipe.SwipeRecyclerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".swipy.SwipyLayoutActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".drawer.DrawerLayoutActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorPortrait" >
+        </activity>
+        <activity
+            android:name=".DaemonServiceActivity"
+            android:label="@string/title_activity_daemon_service" >
+        </activity>
+
+		<receiver
+			android:name=".service.AutoStartReceiver"
+			android:enabled="true"
+			android:exported="true" >
+			<intent-filter android:priority="2147483647">
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+			</intent-filter>
+		</receiver>
+		<!--android.intent.action.TIME_TICK 必须在程序中注册才可以监听到，在AndroidManifest文件中注册无效！！坑爹啊-->
+		<!--
+		<receiver
+			android:name=".service.TimeTickReceiver"
+			android:enabled="true"
+			android:exported="true" >
+			<intent-filter>
+				<action android:name="android.intent.action.TIME_TICK" />
+			</intent-filter>
+		</receiver>
+		-->
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4876FF</color>
+    <color name="colorPrimaryDark">#3A5FCD</color>
+	<color name="colorWindowBackground">@android:color/white</color>
+	<color name="colorNavigationBar">#4876FF</color>
+	<color name="colorTextPrimary">#FFFFFF</color>
+	<color name="colorText">#000000</color>
+	<color name="colorControlNormal">#FF0000</color>
+	<color name="colorAccent">#990000</color>
+	<color name="colorButtonNormal">#00FF00</color>
+	<color name="colorControlHighlight">#009900</color>
+</resources>
